@@ -1,6 +1,6 @@
   .marco{
     width: 250px;
-    height: 450px;
+    height: 460px;
     border: 1px solid black;
     position: absolute;
     top: 10px;
@@ -15,13 +15,14 @@
     border: 1px solid rgb(113, 111, 111);
     background-color: rgba(168, 185, 193, 0.662);
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: 32px;
     opacity: 0.9;
   }
   .texto1{
     font-size: 11px;
-    /* margin-top: 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -45px;
   }
   .circulo {
     width: 75px;
@@ -35,15 +36,27 @@
     width: 100%;
     height: auto;
     border-radius: 50%;
-}
+  }
 .info{
   width: 190px;
   height: 250px;
   border: 1px solid rgb(113, 111, 111);
   background-color: rgba(168, 185, 193, 0.662);
   position: absolute;
-  top: 180px;
+  top: 185px;
   left: 32px;
   border-radius: 5%;
 }
-
+.informacion
+{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: justify;
+  margin: 15px;
+}
+.logo img {
+  max-width: 40%;
+  position: relative;
+  top: -140px;
+}
