@@ -1,28 +1,31 @@
   .marco{
-    width: 250px;
+    width: 260px;
     height: 460px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 20px;
-    border-radius: 5%;
+    /* border-radius: 5%; */
     overflow: hidden;
   }
   .rectangulo{
-    width: 190px;
-    height: 110px;
+    width: 220px;
+    height: 150px;
     border-radius: 10%;
-    border: 1px solid rgb(113, 111, 111);
-    background-color: rgba(168, 185, 193, 0.662);
+    border: 1px solid white;
+    background-color: white;
     position: absolute;
-    top: 65px;
-    left: 32px;
-    opacity: 0.9;
+    top: 120px;
+    left: 19px;
+    /* opacity: 0.9; */
   }
   .texto1{
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -45px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    color: rgb(0, 0, 0);
   }
   .circulo {
     width: 75px;
@@ -33,30 +36,91 @@
     margin-top: 10px;
   }
 .imagen img {
-    width: 100%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 75px;
   }
 .info{
   width: 190px;
   height: 250px;
-  border: 1px solid rgb(113, 111, 111);
-  background-color: rgba(168, 185, 193, 0.662);
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
-  top: 185px;
+  top: 240px;
   left: 32px;
   border-radius: 5%;
 }
-.informacion
+.info1
 {
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
+  position: absolute;
+  top: 60px;
   text-align: justify;
   margin: 15px;
+  color: rgb(0, 0, 0);
+}
+.info2
+{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 20px;
+  text-align: justify;
+  margin: 15px;
+  color: rgb(223, 126, 73);
 }
 .logo img {
-  max-width: 40%;
+  max-width: 37%;
   position: relative;
-  top: -140px;
+  top: -165px;
+}
+
+.circ1 {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(220, 69, 9, 0.911);
+  border-radius: 50%;
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+.circ2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(9, 9, 167);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
+.circ3 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(4, 127, 143);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 110px;
+}
+.circ4 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(81, 11, 147);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 155px;
+}
+.circ5 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(6, 32, 125);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 200px;
 }
